@@ -6,7 +6,7 @@ module.exports = {
       position: `Frontend Developer`,
       summary: `My name is Omar Montoya. I am a Software Development Engineer. I love to create, optimize and deploy web applications focusing on the user experience through friendly and functional interfaces. Working as Software Engineer @ Definity First. I am an Experienced Fullstack Developer with a demonstrated history of working in the information technology and services industry. Skilled in React JS, Angular, Ionic, NodeJS, MongoDB, Mean Stack, RESTfull API’s and User Experience.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `| Software Engineer | Frontend Developer | Gamer | Geek | ReactJ |`,
     siteUrl: `https://montycode.dev/`,
     social: {
       twitter: `monty_code`,
