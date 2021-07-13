@@ -1,7 +1,20 @@
 ---
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+cover: "https://i.imgur.com/KYN4gfW.png"
+category: "ReactJs"
+tags: [
+    {
+        name: "Frontend"
+    },
+    {
+        name: "Web Dev"
+    },
+    {
+        name: "ReactJs"
+    }
+]
 ---
 
 This is my first post on my new fake blog! How exciting!
