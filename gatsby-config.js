@@ -1,18 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `MontyCode.dev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Omar Montoya`,
+      position: `Frontend Developer`,
+      summary: `My name is Omar Montoya. I am a Software Development Engineer. I love to create, optimize and deploy web applications focusing on the user experience through friendly and functional interfaces. Working as Software Engineer @ Definity First. I am an Experienced Fullstack Developer with a demonstrated history of working in the information technology and services industry. Skilled in React JS, Angular, Ionic, NodeJS, MongoDB, Mean Stack, RESTfull API’s and User Experience.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://montycode.dev/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `monty_code`,
+      instagram: `montycode`,
+      facebook: `montycode10`,
+      github: `montycode`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -99,6 +104,12 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      cover
+                      description
+                      category
+                      tags{
+                        name
+                      }
                     }
                   }
                 }
@@ -112,13 +123,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `MontyCode`,
+        short_name: `MontyCode`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/MontyCode_icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
