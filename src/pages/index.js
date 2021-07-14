@@ -72,7 +72,7 @@ const BlogIndex = ({ data, location }) => {
 
                                     return(
                                       <div key={tag.id} className="flex items-center justify-center p-2 m-2 bg-gray-200 dark:bg-gray-800 rounded">
-                                          <p className="text-sm lg:text-base leading-none text-gray-600 dark:text-gray-300">{name}</p>
+                                          <p className="text-sm lg:text-base leading-none text-gray-600 dark:text-gray-300">#{name}</p>
                                       </div>
                                     )
                                   })}
